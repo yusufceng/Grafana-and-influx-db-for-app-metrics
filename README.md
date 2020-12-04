@@ -55,7 +55,7 @@ The app creates the following named volumes (one for each service) so data is no
 
 ## Users
 
-The app creates two admin users - one for InfluxDB and one for Grafana. By default, the username and password of both accounts is `admin`. To override the default credentials, set the following environment variables before starting the app:
+The app creates two admin users - one for InfluxDB and one for Grafana. By default, the username `admin` password is `MySecretPassword1234`. To override the default credentials, set the following environment variables before starting the app:
 
 * `INFLUXDB_USERNAME`
 * `INFLUXDB_PASSWORD`
